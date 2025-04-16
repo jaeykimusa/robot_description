@@ -25,35 +25,35 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/base_0.obj" scale="1 1 1"/>
+        <mesh filename="./assets/base_0.obj" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
     </visual>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/base_1.obj" scale="1 1 1"/>
+        <mesh filename="./assets/base_1.obj" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
     </visual>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/base_2.obj" scale="1 1 1"/>
+        <mesh filename="./assets/base_2.obj" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
     </visual>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/base_3.obj" scale="1 1 1"/>
+        <mesh filename="./assets/base_3.obj" scale="1 1 1"/>
       </geometry>
       <material name="white"/>
     </visual>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/base_4.obj" scale="1 1 1"/>
+        <mesh filename="./assets/base_4.obj" scale="1 1 1"/>
       </geometry>
       <material name="gray"/>
     </visual>
@@ -87,14 +87,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/hip_0.obj" scale="1 1 1"/>
+        <mesh filename="./assets/hip_0.obj" scale="1 1 1"/>
       </geometry>
       <material name="metal"/>
     </visual>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/hip_1.obj" scale="1 1 1"/>
+        <mesh filename="./assets/hip_1.obj" scale="1 1 1"/>
       </geometry>
       <material name="gray"/>
     </visual>
@@ -123,14 +123,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/thigh_0.obj" scale="1 1 1"/>
+        <mesh filename="./assets/thigh_0.obj" scale="1 1 1"/>
       </geometry>
       <material name="metal"/>
     </visual>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/thigh_1.obj" scale="1 1 1"/>
+        <mesh filename="./assets/thigh_1.obj" scale="1 1 1"/>
       </geometry>
       <material name="gray"/>
     </visual>
@@ -159,21 +159,21 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/calf_0.obj" scale="1 1 1"/>
+        <mesh filename="./assets/calf_0.obj" scale="1 1 1"/>
       </geometry>
       <material name="gray"/>
     </visual>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/calf_1.obj" scale="1 1 1"/>
+        <mesh filename="./assets/calf_1.obj" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
     </visual>
     <visual>
       <origin xyz="0 0 -0.213" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/foot.obj" scale="1 1 1"/>
+        <mesh filename="./assets/foot.obj" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
     </visual>
@@ -215,14 +215,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 1.570796 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/hip_0.obj" scale="1 1 1"/>
+        <mesh filename="./assets/hip_0.obj" scale="1 1 1"/>
       </geometry>
       <material name="metal"/>
     </visual>
     <visual>
       <origin xyz="0 0 0" rpy="0 1.570796 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/hip_1.obj" scale="1 1 1"/>
+        <mesh filename="./assets/hip_1.obj" scale="1 1 1"/>
       </geometry>
       <material name="gray"/>
     </visual>
@@ -251,14 +251,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/thigh_mirror_0.obj" scale="1 1 1"/>
+        <mesh filename="./assets/thigh_mirror_0.obj" scale="1 1 1"/>
       </geometry>
       <material name="metal"/>
     </visual>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/thigh_mirror_1.obj" scale="1 1 1"/>
+        <mesh filename="./assets/thigh_mirror_1.obj" scale="1 1 1"/>
       </geometry>
       <material name="gray"/>
     </visual>
@@ -287,21 +287,21 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/calf_mirror_0.obj" scale="1 1 1"/>
+        <mesh filename="./assets/calf_mirror_0.obj" scale="1 1 1"/>
       </geometry>
       <material name="gray"/>
     </visual>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/calf_mirror_1.obj" scale="1 1 1"/>
+        <mesh filename="./assets/calf_mirror_1.obj" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
     </visual>
     <visual>
       <origin xyz="0 0 -0.213" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/foot.obj" scale="1 1 1"/>
+        <mesh filename="./assets/foot.obj" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
     </visual>
@@ -343,14 +343,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 1.570796"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/hip_0.obj" scale="1 1 1"/>
+        <mesh filename="./assets/hip_0.obj" scale="1 1 1"/>
       </geometry>
       <material name="metal"/>
     </visual>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 1.570796"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/hip_1.obj" scale="1 1 1"/>
+        <mesh filename="./assets/hip_1.obj" scale="1 1 1"/>
       </geometry>
       <material name="gray"/>
     </visual>
@@ -379,14 +379,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/thigh_0.obj" scale="1 1 1"/>
+        <mesh filename="./assets/thigh_0.obj" scale="1 1 1"/>
       </geometry>
       <material name="metal"/>
     </visual>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/thigh_1.obj" scale="1 1 1"/>
+        <mesh filename="./assets/thigh_1.obj" scale="1 1 1"/>
       </geometry>
       <material name="gray"/>
     </visual>
@@ -415,21 +415,21 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/calf_0.obj" scale="1 1 1"/>
+        <mesh filename="./assets/calf_0.obj" scale="1 1 1"/>
       </geometry>
       <material name="gray"/>
     </visual>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/calf_1.obj" scale="1 1 1"/>
+        <mesh filename="./assets/calf_1.obj" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
     </visual>
     <visual>
       <origin xyz="0 0 -0.213" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/foot.obj" scale="1 1 1"/>
+        <mesh filename="./assets/foot.obj" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
     </visual>
@@ -471,14 +471,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 3.141592"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/hip_0.obj" scale="1 1 1"/>
+        <mesh filename="./assets/hip_0.obj" scale="1 1 1"/>
       </geometry>
       <material name="metal"/>
     </visual>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 3.141592"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/hip_1.obj" scale="1 1 1"/>
+        <mesh filename="./assets/hip_1.obj" scale="1 1 1"/>
       </geometry>
       <material name="gray"/>
     </visual>
@@ -507,14 +507,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/thigh_mirror_0.obj" scale="1 1 1"/>
+        <mesh filename="./assets/thigh_mirror_0.obj" scale="1 1 1"/>
       </geometry>
       <material name="metal"/>
     </visual>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/thigh_mirror_1.obj" scale="1 1 1"/>
+        <mesh filename="./assets/thigh_mirror_1.obj" scale="1 1 1"/>
       </geometry>
       <material name="gray"/>
     </visual>
@@ -543,21 +543,21 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/calf_mirror_0.obj" scale="1 1 1"/>
+        <mesh filename="./assets/calf_mirror_0.obj" scale="1 1 1"/>
       </geometry>
       <material name="gray"/>
     </visual>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/calf_mirror_1.obj" scale="1 1 1"/>
+        <mesh filename="./assets/calf_mirror_1.obj" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
     </visual>
     <visual>
       <origin xyz="0 0 -0.213" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/home/kuba/Documents/mpac_mujoco/unitree_robots/go2/assets/foot.obj" scale="1 1 1"/>
+        <mesh filename="./assets/foot.obj" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
     </visual>
