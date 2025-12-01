@@ -1,15 +1,13 @@
-[metadata]
-name = robot-description
-version = 0.1.0
-description = Robot description package with URDF files
-long_description = file: README.md
-long_description_content_type = text/markdown
-python_requires = >=3.8
+[build-system]
+requires = ["setuptools>42", "wheel"]
+build-backend = "setuptools.build_meta"
 
-[options]
-packages = find:
-package_dir =
-    = src
+[project]
+name = "robot_description"
+version = "0.1.0"
+description = "Robot description files for g1 and go2 robot models."
+readme = "README.md"
+requires-python = ">=3.8"
 
-[options.package_data]
-robot_description = go2_description/go2/*.urdf
+[tool.setuptools.packages.find]
+where = ["src"]
