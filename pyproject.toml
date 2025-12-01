@@ -8,3 +8,9 @@ version = "0.1.0"
 description = "Robot description files for g1 and go2 robot models."
 readme = "README.md"
 requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.packages-data]
+"robot_description" = ["robot_description/go2_description/go2/go2.urdf"
