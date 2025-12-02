@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>42", "wheel"]
+requires = ["setuptools>=45", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,6 +8,17 @@ version = "0.1.0"
 description = "Robot description files for g1 and go2 robot models."
 readme = "README.md"
 requires-python = ">=3.8"
+dependencies = [
+    "pinocchio",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+robot_description = [
+    "**/*.urdf",
+    "**/*.xml",
+    "**/*.png",
+    "**/*.xacro",
+]
