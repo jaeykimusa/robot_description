@@ -4,9 +4,14 @@
 
 
 import pinocchio as pin
+import os
 
 
-urdf_filename = "src/robot_description/go2_description/go2/go2.urdf"
+# Get the directory where this file is located
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Build the path relative to this file
+urdf_filename = os.path.join(current_dir, "go2", "go2.urdf")
 
 joint_model = pin.JointModelComposite(2)
 joint_model.addJoint(pin.JointModelTranslation())
