@@ -22,4 +22,8 @@ robot_description = [
     "**/*.xml",
     "**/*.png",
     "**/*.xacro",
+    "**/*.obj",
+    "**/*.stl",
+    "**/*.mtl",
+    "**/*.off",
 ]
