@@ -6,12 +6,18 @@
 import mujoco
 import os
 
+from importlib import resources
 
-# Get the directory where this file is located
-current_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Build the path relative to this file
-xml_filename = os.path.join(current_dir, "go2", "go2.xml")
+def getScenePath():
+    # Get the directory where this file is located
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    # Build the path relative to this file
+    xml_filename = os.path.join(current_dir, "go2", "scene.xml")
+    return str(xml_filename)
 
-model = mujoco.MjModel.from_xml_path(xml_filename)
+
+SCENE_XML_FILENAME = getScenePath()
+
+model = mujoco.MjModel.from_xml_path(SCENE_XML_FILENAME)
 data = mujoco.MjData(model)
